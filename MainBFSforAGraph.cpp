@@ -10,6 +10,8 @@
 #include <iostream>
 #include "BFSforAGraph.h"
 
+using namespace std;
+
 int main()
 {
     //Create a Graph with 4 vertices
@@ -28,5 +30,5 @@ int main()
 
     g.BFS(2);
 
-    return 0;
+    return 0;       
 }

@@ -10,7 +10,7 @@
 #include <iostream>
 #include <list>     //Template List definition.
 
-using namespace std;
+//using namespace std;
 
 //This class represents a directed graph using adjacency list representation.
 class Graph
@@ -18,7 +18,7 @@ class Graph
     int V;          // # of Vertices.
 
     //Pointer to an array containing adjancency lists.
-    list<int> *adj;
+    std::list<int> *adj;
 
 public:
     Graph(int V);   //Constructor.

@@ -1,4 +1,15 @@
+//
+//  BFSforAGraph.cpp
+//
+//  Created by Maiqui Cedeño on 12/4/18.
+//  Copyright © 2018 Maiqui Cedeño. All rights reserved.
+//
+// Program to print BFS traversal from a given source vertex.
+//
+
 #include "BFSforAGraph.h"
+
+using namespace std;
 
 Graph::Graph(int V)
 {
